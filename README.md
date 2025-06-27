@@ -1,6 +1,8 @@
 ## 👋 Hi, I'm Ratan Rithwik
 
-Aspiring Data Scientist & Machine Learning Engineer with a passion for building from scratch. Currently enhancing my portfolio through end-to-end projects focused on real-world applications, including imputation, clustering, and recommender systems.
+Aspiring Data Scientist & Machine Learning Engineer with a strong focus on practical, end-to-end ML solutions. I build and experiment with supervised, unsupervised, and reinforcement learning models using Python and high-level libraries like Scikit-learn, NumPy, and PyTorch.
+
+My projects emphasize clear evaluation, reproducibility, and real-world relevance — from imputation and clustering to recommendation systems and agent-based learning.
 
 ---
 
