@@ -4,20 +4,17 @@
 
 ---
 
-### 🔭 Currently Building
+### Featured Projects
 
-My current focus is on building end-to-end portfolio projects that demonstrate the full lifecycle of ML systems—from robust data processing to interactive, full-stack deployment.
+Here are the foundational projects from my recent R&D phase, where I focused on deep analysis and establishing robust baselines for full-stack ML systems.
 
 *   **[Intelligent Review Analytics Platform](https://github.com/pr-rithwik/intelligent-review-analytics)**
-    *   An NLP pipeline and interactive dashboard for sentiment classification and business intelligence on e-commerce reviews.
-    *   **Status:** `In Development - Finalizing model pipeline and deploying Streamlit UI.`
+    *   A deep-dive analysis establishing the data pipeline and a baseline model (Logistic Regression) for sentiment classification. This project serves as the documented foundation for a future full-stack business intelligence tool.
+    *   **Status:** `Phase 1 Complete - Baseline model and analysis established.`
 
-*   **[Netflix Recommendation Engine](https://github.com/pr-rithwik/netflix-recommendation-engine)**
-    *   A full-stack application to benchmark and serve multiple recommendation algorithms (KNN, SVD, NMF) in real-time.
-    *   **Status:** `Proof-of-Concept - Actively refactoring and preparing for v2 upgrade.`
-
-*   **[Deep Dive Recommenders](https://github.com/pr-rithwik/deep-dive-recommenders)**
-    *   I am currently architecting the next version of this system, which will leverage a richer, real-world dataset to deliver more impactful and realistic recommendations.
+*   **[Comparative Analysis of Recommendation Engines](https://github.com/pr-rithwik/netflix-recommendation-engine)**
+    *   A reproducible Jupyter Notebook comparing the performance of multiple collaborative filtering algorithms (KNN, SVD, NMF) on a benchmark dataset, focusing on the trade-offs between accuracy, speed, and interpretability.
+    *   **Status:** `Analysis Complete.`
 
 ---
 
