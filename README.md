@@ -1,34 +1,38 @@
-# Ratan Rithwik | AI/ML Engineer
+# Ratan Rithwik — AI/ML Engineer
 
-> **AI/ML Engineer with deep expertise in full-stack development and a specialization in Generative AI.** I architect and build end-to-end systems, leveraging technologies like LangChain, RAG, and fine-tuning to create intelligent applications. My project work includes developing everything from classic collaborative filtering engines to advanced NLP pipelines for real-world business problems.
+Building end-to-end ML systems: NLP pipelines, LLM agents, and production deployments.
 
 ---
 
 ### Featured Projects
 
-Here are the foundational projects from my recent R&D phase, where I focused on deep analysis and establishing robust baselines for full-stack ML systems.
+**[Product Voice Analytics](https://github.com/pr-rithwik/product-voice-analytics)**
+End-to-end NLP pipeline on 20M+ Amazon Electronics reviews. TF-IDF + LR baseline (82.8% accuracy, 0.04s/1k reviews) vs. fine-tuned DistilBERT. BERTopic topic modeling + Claude API for plain-English praise and complaint extraction. DuckDB-backed sub-second product search. Deployed on HuggingFace Spaces.
 
-*   **[Intelligent Review Analytics Platform](https://github.com/pr-rithwik/intelligent-review-analytics)**
-    *   A deep-dive analysis establishing the data pipeline and a baseline model (Logistic Regression) for sentiment classification. This project serves as the documented foundation for a future full-stack business intelligence tool.
-    *   **Status:** `Phase 1 Complete - Baseline model and analysis established.`
-
-*   **[Comparative Analysis of Recommendation Engines](https://github.com/pr-rithwik/netflix-recommendation-engine)**
-    *   A reproducible Jupyter Notebook comparing the performance of multiple collaborative filtering algorithms (KNN, SVD, NMF) on a benchmark dataset, focusing on the trade-offs between accuracy, speed, and interpretability.
-    *   **Status:** `Analysis Complete.`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/rithweek/product-voice-analytics)
+[![Model Hub](https://img.shields.io/badge/Model_Hub-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/rithweek/product-voice-analytics-models)
 
 ---
 
-### 💻 Tech Stack & Tools
+**[Weather Chat Agent](https://github.com/pr-rithwik/weather-chat-agent)**
+Agentic Streamlit app using Claude's function calling API. Claude autonomously decides when to fetch live weather vs. answer from context — a question like "will it rain?" triggers a forecast fetch while "what does 80% humidity feel like?" doesn't hit the API at all. Stateful conversation with lean token design, tiered caching (10min/30min/1hr), pytest suite. Deployed on Streamlit Cloud.
 
-*   **Generative AI & LLMs:** `LangChain`, `Hugging Face`, `RAG`, `Prompt Engineering`, `Fine-Tuning`
-*   **Machine Learning:** `PyTorch`, `TensorFlow`, `Scikit-learn`, `NLP (BERT)`, `Recommendation Systems`
-*   **Programming & Backend:** `Python`, `SQL`, `API Development (Flask, FastAPI)`, `REST`
-*   **Data & DevOps:** `Pandas`, `Docker`, `Git`, `Google Cloud Platform (GCP)`, `BigQuery`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://weather94.streamlit.app)
 
 ---
 
-### 📫 Let's Connect
+### Stack
 
-*   **Portfolio:** [rithwik.dev](https://rithwik.dev)
-*   **LinkedIn:** [linkedin.com/in/ratan-rithwik](https://www.linkedin.com/in/ratan-rithwik/)
-*   **Email:** [connect@rithwik.dev](mailto:connect@rithwik.dev)
+**NLP / ML:** DistilBERT · BERTopic · TF-IDF · scikit-learn · HuggingFace Transformers  
+**LLMs / Agents:** Claude API · Function Calling · Prompt Engineering  
+**Data:** DuckDB · Parquet · Pandas · Reservoir Sampling  
+**App / Deploy:** Streamlit · Gradio · HuggingFace Spaces · Streamlit Cloud  
+**Dev:** PyTorch · Python · pytest · Git  
+
+---
+
+### Connect
+
+[![Portfolio](https://img.shields.io/badge/rithwik.dev-000000?style=for-the-badge&logo=safari&logoColor=white)](https://rithwik.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ratan-rithwik)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect@rithwik.dev)
